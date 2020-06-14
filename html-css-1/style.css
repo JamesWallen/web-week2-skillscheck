@@ -1,94 +1,123 @@
 body {
-    background-color: black;
-    font-family: sans-serif;
+    background: rgb(12, 12, 12);
 }
 
-header {
-    background-color: gray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 45px;
-    margin-left: 575px;
-    margin-right: 575px;
-}
-
-.nav1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
-    margin-left: 35px;
-    margin-right: 35px;
-}
-
-h1 {
-    width: 100%;
-    font-size: 25px;
-    color: white;
-}
-
-#menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-left: 400px;
+#main-header {
+    background: rgb(97, 97, 97);
+    height: 55px;
+    width: 40%;
+    position: fixed;
+    top: 0px;
+    left: 30%
 }
 
 h2 {
+    font-size: 27px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+
+#main-header nav {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    right: 12%;
+    top: 7px;
+}
+
+h1 {
+    color: rgb(224, 222, 222);
     font-size: 12px;
-    color: rgb(233, 224, 224);
-    margin-top: 3px;
-    justify-content: space-between;
-    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top: 10px;
 }
 
 #title {
-    font-size: 55px;
-    font-weight: bolder;
-    color: rgb(211, 211, 84);
-    margin-top: 100px;
-    margin-left: 700px;
+    height: 270px;
+    width: 40%;
+    background: black;
+    position: fixed;
+    top: 45px;
+    left: 30%;
 }
 
-.main-flex {
-    height: 569px;
+h3 {
+    color: rgb(252, 226, 82);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13%;
+    margin-top: 13%;
+}
+
+#main-flex {
+    height: calc(100vh - 400px);
+    width: 40%;
+    background: white;
+    position: fixed;
+    left: 30%;
+    top: 315px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: white;
-    margin-right: 600px;
-    margin-left: 600px;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .top-row {
     height: 170px;
-    width: 150px;
-    background: turquoise;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px;
-    justify-content: space-evenly;
+    width: 170px;
+    background: rgb(120, 247, 198);
+    margin-left: 8%;
+    margin-top: 5%;
+    border-radius: 15px;
 }
 
-.middle-row {
+.bottom-row-1 {
     height: 170px;
-    width: 280px;
+    width: 305px;
     background: orange;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 8%;
+    margin-top: -115px;
 }
 
-p {
-    font-size: 10px;
-    margin-left: 40px;
-    margin-right: 370px;
+.bottom-row-2 {
+    height: 170px;
+    width: 305px;
+    background: orange;
+    margin-left: 3%;
+    margin-top: -115px;
 }
 
+.para {
+    height: 100px;
+    width: 265px;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 4%;
+    margin-top: 23%;
+    position: fixed;
+}
+
+.image {
+    position: fixed;
+    left: 53%;
+    top: 77%;
+    height: 120px;
+    width: 200px;
+    background-size: 100%;
+    background-image: url("https://cdn2-www.dogtime.com/assets/uploads/gallery/english-bulldog-puppies/english-bulldog-7.jpg")
+}
 
 
 footer {
-    color: rgb(85, 84, 84);
+    height: 85px;
+    width: 40%;
+    background: rgb(51, 52, 78);
+    position: fixed;
+    bottom: 0px;
+    left: 30%;
 }
